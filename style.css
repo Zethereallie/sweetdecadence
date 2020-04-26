@@ -1,0 +1,29 @@
+html,
+body {
+	height: 100%;
+	width: 100%;
+	background: url(background.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+  	font-family: 'Libre Franklin', sans-serif;
+}
+h1 {
+	color: black;
+	font-weight:30px;
+}
+
+.btn-primary {
+	background-color: #F56BA5;
+	border-color: #F56BA5;
+	border-radius: 20px;
+	margin: 15px;
+	padding: 6px;
+}
+.btn-primary:hover {
+	background-color: #DB2672;
+	border-color: #DB2672;
+	height: 50px;
+	width: 200px;
+}
